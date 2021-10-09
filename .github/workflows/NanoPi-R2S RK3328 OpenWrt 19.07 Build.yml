@@ -121,16 +121,16 @@ jobs:
           cd code/friendlywrt
 
           rm -rf feeds/packages/libs/libcap
-          svn co https://github.com/openwrt/packages/trunk/libs/libcap feeds/packages/libs/libcap
+          svn co https://github.com/openwrt/packages/master/libs/libcap-ng feeds/packages/libs/libcap
           
           rm -rf package/feeds/packages/netdata
-          svn co https://github.com/openwrt/packages/trunk/admin/netdata package/feeds/packages/netdata
+          svn co https://github.com/openwrt/packages/master/admin/netdata package/feeds/packages/netdata
 
           rm -rf feeds/packages/libs/libnatpmp
-          svn co https://github.com/coolsnowwolf/packages/trunk/libs/libnatpmp feeds/packages/libs/libnatpmp
+          svn co https://github.com/coolsnowwolf/packages/master/libs/libnatpmp feeds/packages/libs/libnatpmp
           
           rm -rf feeds/packages/lang/luasec
-          svn co https://github.com/coolsnowwolf/packages/trunk/lang/luasec feeds/packages/lang/luasec
+          svn co https://github.com/coolsnowwolf/packages/master/lang/luasec feeds/packages/lang/luasec
 
           sed -i '/STAMP_BUILT/d' feeds/packages/utils/runc/Makefile
           sed -i '/STAMP_BUILT/d' feeds/packages/utils/containerd/Makefile
