@@ -1,5 +1,6 @@
 ## 20211009
 * 移除Helloworld
+* fixed clash premium download link
 
 ## 20210303
 * 日常更新
