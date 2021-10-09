@@ -1,6 +1,7 @@
 ## 20211009
 * 移除Helloworld
 * fixed clash premium download link
+* fixed libcap and netdata download links
 
 ## 20210303
 * 日常更新
